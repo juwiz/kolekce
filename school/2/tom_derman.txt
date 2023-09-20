@@ -1,0 +1,9 @@
+Tom
+Derman
+2
+aj
+3 3 2 
+ma
+1 3 5 1
+de
+1 3

@@ -11,6 +11,7 @@ namespace Kolekce
         {
           
             zakFunkce zf = new zakFunkce();
+            Commands c = new Commands();
 
           
           
@@ -32,9 +33,12 @@ namespace Kolekce
 
             yukito.listAllSubjects();
 
+          c.viewall();
+
             string? input;
             string[] iArr;
             Student? active = null;
+            /*
             while (true)
             {
 
@@ -46,7 +50,7 @@ namespace Kolekce
                  iArr = input.Split(" ");
                  if (active == null)
                  {
-                     //search, filter, viewall, del add student help, active deactive and getactive student
+                     //search, filter, viewall, del add student help, active deactive and getactive student, add class
                      switch (iArr[0])
                      {
                          case"search":
@@ -57,6 +61,8 @@ namespace Kolekce
                              break;
                         case"addstudent":
                              break;   
+                        case"addclass":
+                             break;
 
                         case"delstudent":
                              break;
@@ -66,7 +72,7 @@ namespace Kolekce
                              break;
                         case"getactive":
                              break;   
-                        case"help":
+                        case"help" or "-h":
                              break; 
 
                          default:
@@ -76,7 +82,37 @@ namespace Kolekce
                  }
                  else
                  {
-                     
+                    /// get active, deactive, help ,add del list subject, set list marks, change first or last name
+                     switch (iArr[0])
+                     {
+                         case"addsubject":
+                             break;
+                        case"delsubject":
+                             break;   
+                        case"listsubject":
+                             break;
+                        case"setmarks":
+                             break;   
+
+                        case"listmarks":
+                             break;
+                        case"changefirstname":
+                             break;  
+                        case"changelastname":
+                             break;   
+                        case"setclass":
+                             break;
+                        case"deactive":
+                             break;
+                        case"getactive":
+                             break;   
+                        case"help" or "-h":
+                             break; 
+
+                         default:
+                         Console.WriteLine("This command can't be used here, type help or -h for available commands");
+                         break;
+                     }
                  }
                }
                else
@@ -84,11 +120,11 @@ namespace Kolekce
                 Console.WriteLine("You need to write command, to list useable commands type help or -h");
                }
 
-
+                
 
                 
             }
-
+               */
 
         
 
