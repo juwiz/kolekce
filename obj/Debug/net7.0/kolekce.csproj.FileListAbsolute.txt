@@ -1,0 +1,15 @@
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/obj/Debug/net7.0/kolekce.GeneratedMSBuildEditorConfig.editorconfig
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/obj/Debug/net7.0/kolekce.AssemblyInfoInputs.cache
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/obj/Debug/net7.0/kolekce.AssemblyInfo.cs
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/obj/Debug/net7.0/kolekce.csproj.CoreCompileInputs.cache
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/bin/Debug/net7.0/kolekce
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/bin/Debug/net7.0/kolekce.deps.json
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/bin/Debug/net7.0/kolekce.runtimeconfig.json
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/bin/Debug/net7.0/kolekce.dll
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/bin/Debug/net7.0/kolekce.pdb
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/obj/Debug/net7.0/kolekce.dll
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/obj/Debug/net7.0/refint/kolekce.dll
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/obj/Debug/net7.0/kolekce.pdb
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/obj/Debug/net7.0/kolekce.genruntimeconfig.cache
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/obj/Debug/net7.0/ref/kolekce.dll
+/home/leo/a_user_files/aa_skola/a_skola/programing/kolekce/obj/Debug/net7.0/kolekce.csproj.AssemblyReference.cache
