@@ -63,7 +63,7 @@ namespace Kolekce
 ///////////////////////////////////////////////////////////////////
 
     public void addSubject(string name, string marks){
-        //////////do later: change in file
+        //////////do later: change in file add
 
         this.subjects.name_marks.Add(name, marks.Split(" "));
 
@@ -76,6 +76,16 @@ namespace Kolekce
         ////////////////do later: remove subject in txt
         this.subjects.name_marks.Remove(name);
         Console.WriteLine($"subject {name} deleted");
+    }
+
+    public void listAllSubjects(){
+
+       var a = this.subjects.name_marks.Keys;
+
+       foreach (var i in a)
+       {
+        Console.WriteLine($"{i}: {string.Join(" ", this.subjects.name_marks[i])}");
+       }
     }
 
 

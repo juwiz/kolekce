@@ -4,6 +4,8 @@ namespace Kolekce
 {
     public class Subject {
 
+    
+
         public Dictionary <string, string[]>  name_marks = new Dictionary <string, string[]> ();
 
 
@@ -27,13 +29,20 @@ namespace Kolekce
     public void setMarks(string name){
 
         ////////////////////////valid input check
+        ///check if subject exist
         //////////do later: change in file;
         Console.WriteLine($"current grades: {string.Join(" ", this.name_marks[name])}\ncopy current grades and then change, add or delete, them.");
-        string input = Console.ReadLine();
+        string? input = Console.ReadLine();
+
+        if(input == null){
+            input = " ";
+        }
 
         this.name_marks[name] = input.Split(" ");
         
     }
+
+    
 
     public String getMarks( string name){
 
