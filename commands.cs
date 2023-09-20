@@ -36,7 +36,7 @@ namespace Kolekce
                 
             }
             else{
-                
+
             }
            var rArr = this.viewall();
 
@@ -49,10 +49,16 @@ namespace Kolekce
             
         }
         public void addstudent(string[] s){
+            ///struktura komandu jestli se lisi tak vratit
+            /// command firstname lastname class subject marks subject marks (that can repeat there till all the subjects are added)
+            /// example: addstudent bob tin 2 aj 2 2 2 2 cj 3 2 1
+            ///vytvor txt filu ve stejnem formatu jako jsou ostatni v slozce school a prirad do spravne tridy
+
             
         }
         public void delstudent(string[] s){
-            
+            /// command firstname lastname
+            /// najit a odstanit filu
         }
         public void setfirstname(string[] s){
             
