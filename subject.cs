@@ -9,14 +9,14 @@ namespace Kolekce
         public Dictionary <string, string[]>  name_marks = new Dictionary <string, string[]> ();
 
 
-    public Subject(string n){
+    public Subject(string [] n){
 
         ///// input check later needed, eliminate all the error inputs later tho enjoy that babe xd ///////////
-        String [] a = n.Split("\n");
+        
 
-        for (int i = 0; i < a.Length; i+=2)
+        for (int i = 0; i < n.Length - 2; i+=2)
         {
-            this.name_marks.Add(a[i], a[i+1].Split(" "));
+            this.name_marks.Add(n[i], n[i+1].Split(" "));
         }
 
 

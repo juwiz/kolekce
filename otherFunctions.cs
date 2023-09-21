@@ -2,8 +2,8 @@
 
 namespace Kolekce
 {   
-    public class otherFunctions {
-        public otherFunctions(){
+    public class OtherFunctions {
+        public OtherFunctions(){
 
         }
 

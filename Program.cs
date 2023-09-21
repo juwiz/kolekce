@@ -19,26 +19,11 @@ namespace Kolekce
           
           //////////////////////////////////////////////////
           
-           int[] m2 = {1, 3, 2, 3};
            
-    
-
-            int[] m = {1, 4, 4, 4};
-            Subject s = new Subject("cj\n" + string.Join(" ", m2) + "\n"  + "aj\n" + string.Join(" ", m) );
-
-            Student yukito = new Student("Yukito", "Zakiry", "2", s);
-
-
-            zf.addStudent("Yukito", "Zakiry", "2", "aj 1 2 3 2 cj 2 5 2 ne 4 2 5 3".Split(" "));
-
-            yukito.listAllSubjects();
-
-          c.viewall();
-
             string? input;
             string[] iArr;
             Student? active = null;
-            /*
+            
             while (true)
             {
 
@@ -54,6 +39,7 @@ namespace Kolekce
                      switch (iArr[0])
                      {
                          case"search":
+                              c.search(iArr);
                              break;
                         case"filter":
                              break;   
@@ -67,10 +53,14 @@ namespace Kolekce
                         case"delstudent":
                              break;
                         case"setactive":
+                              active = c.setactive(iArr);
                              break;   
                         case"deactive":
+                              active = null;
                              break;
                         case"getactive":
+                              Console.WriteLine("no student is selected");
+                              
                              break;   
                         case"help" or "-h":
                              break; 
@@ -86,10 +76,12 @@ namespace Kolekce
                      switch (iArr[0])
                      {
                          case"addsubject":
+                              c.addsubject(active, iArr);
                              break;
                         case"delsubject":
                              break;   
                         case"listsubject":
+                              c.listsubject(active);
                              break;
                         case"setmarks":
                              break;   
@@ -103,8 +95,10 @@ namespace Kolekce
                         case"setclass":
                              break;
                         case"deactive":
+                              active = null;
                              break;
                         case"getactive":
+                              Console.WriteLine($"{active.getFirstName()} { active.getLastName()}");
                              break;   
                         case"help" or "-h":
                              break; 
@@ -124,7 +118,7 @@ namespace Kolekce
 
                 
             }
-               */
+               
 
         
 

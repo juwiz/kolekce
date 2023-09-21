@@ -18,8 +18,8 @@ namespace Kolekce
         this.subjects = s;
     }
     
-    public void getFirstName(){
-        Console.WriteLine($"{this.firstName}");
+    public string getFirstName(){
+        return this.firstName;
     }
 
     public void setFirstName(string name){
@@ -29,8 +29,8 @@ namespace Kolekce
     }
 
 
-    public void getLastName(){
-        Console.WriteLine($"{this.firstName}");
+    public string getLastName(){
+        return this.lastName;
     }
 
 
@@ -53,9 +53,9 @@ namespace Kolekce
         
     }
 
-    public Subject getSubject(string name){
+    public Subject getSubject(){
 
-        Console.WriteLine( $"{name} \n{this.subjects.getMarks(name)}");
+        
 
         return this.subjects;
     }

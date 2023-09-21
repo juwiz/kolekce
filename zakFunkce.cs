@@ -9,9 +9,9 @@ namespace Kolekce
 
     public class zakFunkce { //////// manipulating w student classes, adding deleting, changing ect.....
 
-        otherFunctions of;
+        OtherFunctions of;
         public zakFunkce(){
-            this.of = new otherFunctions();
+            this.of = new OtherFunctions();
         }
 
         public void addStudent(string firstName, string lastName, string classNum,  string[] subjects){
